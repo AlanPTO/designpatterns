@@ -150,9 +150,9 @@ module.exports = function (grunt) {
                     sourceMap: false
                 },
                 files: {
-                    '<%= paths.downloads %>/css/usptostrap.min.css': '<%= paths.usptostrap %>/sass/usptostrap.scss',
-                    '<%= paths.assets %>/styles/pattern-library.css': '<%= paths.front %>styles/sass/pattern-library.scss',
-                    '<%= paths.assets %>/styles/appDemo.min.css': '<%= paths.front %>styles/sass/appDemo/appDemo.scss'
+                    '<%= paths.downloads %>/css/usptostrap.min.css': '<%= paths.usptostrap %>/sass/usptostrap.scss'//,
+                //     '<%= paths.assets %>/styles/pattern-library.css': '<%= paths.front %>styles/sass/pattern-library.scss',
+                //     '<%= paths.assets %>/styles/appDemo.min.css': '<%= paths.front %>styles/sass/appDemo/appDemo.scss'
                 }
             }
         },

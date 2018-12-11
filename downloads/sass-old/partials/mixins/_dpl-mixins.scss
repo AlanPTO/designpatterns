@@ -1,6 +1,5 @@
-@import "../../../../node_modules/bootstrap/scss/functions";
 @import '../_dpl-variables';
-@import "./node_modules/bootstrap/scss/mixins";
+
 /* CUSTOM MIXINS */
 @mixin background($start, $end, $percentTop: 0%, $percentBottom: 100%, $filter: true) {
     background: -moz-linear-gradient(top, $start $percentTop, $end $percentBottom);
